@@ -2,13 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-    fontFamily:{
-      poppins: ["Poppins", "sans-serif"]
+    extend: {
+      textColor: {
+      primary: '#181818',
     },
-    backgroundColor:{
-      ceniza:'#181818'
-    }
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
+    backgroundColor: {
+      ceniza: '#181818',
+    },
+  },
+
   },
   plugins: [],
 }
