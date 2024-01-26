@@ -5,7 +5,7 @@ const dropdownMenu = document.querySelector(".dropdown-menu")
 
 
 toggleMenu.addEventListener("click", () => {
-    dropdownMenu.classList.toggle('top-48')
+    dropdownMenu.classList.toggle('top-32')
 
     menuIcon.classList.toggle('fa-bars');
     menuIcon.classList.toggle('fa-times');
